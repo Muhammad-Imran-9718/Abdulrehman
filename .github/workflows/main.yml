@@ -30,6 +30,6 @@ jobs:
     - name: installing surge
       run: npm install --global surge
       
-      name: deploying webpage on surge
+    - name: deploying webpage on surge
       run: surge ./ mani.surge.sh --token "84896d41fee9b018cfb5628a038872fc"
       
