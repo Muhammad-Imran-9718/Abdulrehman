@@ -31,6 +31,5 @@ jobs:
       run: npm install --global surge
       
       name: deploying webpage on surge
-      run: surge ./ mani.surge.sh -token "84896d41fee9b018cfb5628a038872fc"
-        echo Add other actions to build,
-        echo test, and deploy your project.
+      run: surge ./ mani.surge.sh --token "84896d41fee9b018cfb5628a038872fc"
+      
